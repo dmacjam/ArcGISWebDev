@@ -47,7 +47,7 @@ define([
       this.own(
         this.handler,
         on(this.domNode, '.btn-edit:click', lang.hitch(this, '_toggleEditButton')),
-        on(this.domNode, '.btn-sycn:click', lang.hitch(this, '_syncLocal'))
+        on(this.domNode, '.btn-sync:click', lang.hitch(this, '_syncLocal'))
       );
     },
     // public methods
